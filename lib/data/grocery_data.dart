@@ -2,46 +2,73 @@ class GroceryData {
   static List<Map<String, dynamic>> groceryProducts = [
     {
       "id": "1",
-      "name": "Apple",
-      "description": "Fresh red apples",
-      "price": 1.2,
-      "imageUrl": "https://i5.walmartimages.com/seo/Fresh-Red-Delicious-Apple-Each_7320e63a-de46-4a16-9b8c-526e15219a12_3.e557c1ad9973e1f76f512b34950243a3.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF"
+      "name": "Avocado",
+      "description": "Ripe Hass avocados",
+      "price": 2.0,
+      "imageUrl": "https://nutritionsource.hsph.harvard.edu/wp-content/uploads/2022/04/pexels-antonio-filigno-8538296-1024x657.jpg"
     },
     {
       "id": "2",
-      "name": "Banana",
-      "description": "Sweet bananas",
-      "price": 0.8,
-      "imageUrl": "https://s3.ap-southeast-1.amazonaws.com/s.kalimoni-greens.com/img2194GMnb.JPG"
+      "name": "Spinach",
+      "description": "Fresh organic spinach",
+      "price": 1.4,
+      "imageUrl": "https://www.organicfacts.net/wp-content/uploads/spinach.jpg"
     },
     {
       "id": "3",
-      "name": "Carrot",
-      "description": "Organic carrots",
-      "price": 0.5,
-      "imageUrl": "https://www.nutriharvest.com/cdn/shop/articles/carrots2_94041803-d158-41d7-8db2-57e6f2a1bb88.png?v=1712253710&width=1100"
+      "name": "Salmon",
+      "description": "Fresh Atlantic salmon fillet 200g",
+      "price": 5.5,
+      "imageUrl": "https://cdn-assets-eu.frontify.com/s3/frontify-enterprise-files-eu/eyJvYXV0aCI6eyJjbGllbnRfaWQiOiJmcm9udGlmeS1maW5kZXIifSwicGF0aCI6ImloaC1oZWFsdGhjYXJlLWJlcmhhZFwvZmlsZVwvSGhleHdSaUVCYWJ0b1dFRWpUM1EuanBnIn0:ihh-healthcare-berhad:6Zk6UuetaajSDB-43bdLAoamTKKBCqQFMfjY38nWPbk?format=webp"
     },
     {
       "id": "4",
-      "name": "Milk",
-      "description": "1L full cream milk",
-      "price": 1.5,
-      "imageUrl": "https://spar2u.lk/cdn/shop/files/3002096-1.jpg?v=1748382788"
+      "name": "Yogurt",
+      "description": "Greek yogurt 500g",
+      "price": 2.2,
+      "imageUrl": "https://www.chobani.com/media/products/plain-greek-yogurt.jpg"
     },
-
     {
       "id": "5",
-      "name": "Cheese",
-      "description": "Cheddar cheese 200g",
-      "price": 2.5,
-      "imageUrl": "https://onthepigsback.ie/cdn/shop/products/HegartyCheese-2.jpg?v=1606890697"
+      "name": "Almonds",
+      "description": "Raw whole almonds 200g",
+      "price": 3.0,
+      "imageUrl": "https://nuts.com/images/rackcdn/almonds-raw.jpg"
     },
     {
       "id": "6",
-      "name": "Orange",
-      "description": "Sweet oranges",
-      "price": 1.1,
-      "imageUrl": "https://blog2.pittmandavis.com/wp-content/uploads/2021/11/Pittman-Cara-Cara-Navel-Oranges.jpg"
+      "name": "Potato",
+      "description": "Russet potatoes",
+      "price": 0.7,
+      "imageUrl": "https://www.specialtyproduce.com/sppics/1466.png"
+    },
+    {
+      "id": "7",
+      "name": "Chicken Breast",
+      "description": "Boneless chicken breast 500g",
+      "price": 4.0,
+      "imageUrl": "https://www.perduefarms.com/content/dam/perdue/products/chicken-breast.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Cucumber",
+      "description": "Fresh cucumbers",
+      "price": 0.6,
+      "imageUrl": "https://www.gardeningknowhow.com/wp-content/uploads/2020/07/cucumber.jpg"
+    },
+    {
+      "id": "9",
+      "name": "Pasta",
+      "description": "Spaghetti 500g",
+      "price": 1.2,
+      "imageUrl": "https://www.barilla.com/-/media/images/products/spaghetti.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Blueberries",
+      "description": "Fresh organic blueberries 200g",
+      "price": 3.5,
+      "imageUrl": "https://www.driscolls.com/content/dam/driscolls/products/blueberries.jpg"
     },
   ];
 }

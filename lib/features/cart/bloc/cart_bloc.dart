@@ -17,7 +17,7 @@ class CartBloc extends Bloc<CartEvent, CartState> {
   FutureOr<void> cartInitialEvent(CartInitialEvent event, Emitter<CartState> emit) async{
         print("cartInitialEvent");
     emit(CartLoadingState());
-    await Future.delayed(Duration(seconds: 2));
+    await Future.delayed(Duration(seconds: 1));
     emit(CartSuccessState(cartItems: cartItems));
   }
 
