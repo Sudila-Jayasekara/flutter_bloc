@@ -18,7 +18,6 @@ class _HomeState extends State<Home> {
     homeBloc.add(HomeInitialEvent());
     super.initState();
   }
-
   final HomeBloc homeBloc = HomeBloc();
 
   @override
@@ -32,7 +31,9 @@ class _HomeState extends State<Home> {
           Navigator.push(
             context,
             MaterialPageRoute(builder: (context) => Cart()),
-          );
+          ).then((_) {
+            homeBloc.add(HomeInitialEvent());
+          });
         } else if (state is HomeNavigateToWishlistPageActionState) {
           Navigator.push(
             context,
@@ -85,7 +86,7 @@ class _HomeState extends State<Home> {
                       homeBloc.add(HomeCartButtonNavigateEvent());
                     },
                     icon: Icon(
-                      Icons.shopping_bag_outlined,
+                      Icons.shopping_cart_outlined,
                       color: Colors.white,
                     ),
                   ),
@@ -97,6 +98,7 @@ class _HomeState extends State<Home> {
                 itemBuilder: (context, index) {
                   return ProductTileWidget(
                     productDataModel: successState.products[index],
+                    cartItems: successState.cartItems,
                     homeBloc: homeBloc,
                   );
                 },

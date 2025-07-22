@@ -53,7 +53,7 @@ class CartProductTileWidget extends StatelessWidget {
                       ));
                     },
                     icon: Icon(
-                      Icons.shopping_bag,
+                      Icons.shopping_cart,
                     ),
                   ),
                 ],

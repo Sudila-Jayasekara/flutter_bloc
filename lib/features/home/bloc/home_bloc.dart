@@ -24,9 +24,10 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
   ) async {
     print("homeInitialEvent");
     emit(HomeLoadingState());
-    await Future.delayed(Duration(seconds: 2));
+    await Future.delayed(Duration(seconds: 1));
     emit(
       HomeLoadedSuccessState(
+        cartItems: cartItems,
         products:
             GroceryData.groceryProducts
                 .map(
@@ -69,5 +70,22 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
   print("homeProductCartButtonClickedEvent");
   cartItems.add(event.clickedProduct);
   emit(HomeProductCartButtonClickedActionState());
+  emit(
+      HomeLoadedSuccessState(
+        cartItems: cartItems,
+        products:
+            GroceryData.groceryProducts
+                .map(
+                  (e) => ProductDataModel(
+                    id: e['id'],
+                    name: e['name'],
+                    description: e['description'],
+                    price: e['price'],
+                    imageUrl: e['imageUrl'],
+                  ),
+                )
+                .toList(),
+      ),
+    );
   }
 }

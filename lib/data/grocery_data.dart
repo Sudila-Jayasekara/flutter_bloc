@@ -26,49 +26,14 @@ class GroceryData {
       "name": "Yogurt",
       "description": "Greek yogurt 500g",
       "price": 2.2,
-      "imageUrl": "https://www.chobani.com/media/products/plain-greek-yogurt.jpg"
+      "imageUrl": "https://www.allrecipes.com/thmb/TFYQ4bF-ynLfpQIjqyvxdXNOTgo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ar-fluffy-yogurt-2x1-7ea6ae3c360f4b6699ed4714835e120c.jpg"
     },
     {
       "id": "5",
       "name": "Almonds",
       "description": "Raw whole almonds 200g",
       "price": 3.0,
-      "imageUrl": "https://nuts.com/images/rackcdn/almonds-raw.jpg"
-    },
-    {
-      "id": "6",
-      "name": "Potato",
-      "description": "Russet potatoes",
-      "price": 0.7,
-      "imageUrl": "https://www.specialtyproduce.com/sppics/1466.png"
-    },
-    {
-      "id": "7",
-      "name": "Chicken Breast",
-      "description": "Boneless chicken breast 500g",
-      "price": 4.0,
-      "imageUrl": "https://www.perduefarms.com/content/dam/perdue/products/chicken-breast.jpg"
-    },
-    {
-      "id": "8",
-      "name": "Cucumber",
-      "description": "Fresh cucumbers",
-      "price": 0.6,
-      "imageUrl": "https://www.gardeningknowhow.com/wp-content/uploads/2020/07/cucumber.jpg"
-    },
-    {
-      "id": "9",
-      "name": "Pasta",
-      "description": "Spaghetti 500g",
-      "price": 1.2,
-      "imageUrl": "https://www.barilla.com/-/media/images/products/spaghetti.jpg"
-    },
-    {
-      "id": "10",
-      "name": "Blueberries",
-      "description": "Fresh organic blueberries 200g",
-      "price": 3.5,
-      "imageUrl": "https://www.driscolls.com/content/dam/driscolls/products/blueberries.jpg"
+      "imageUrl": "https://www.marthastewart.com/thmb/yHrnw79R2c2v_wYMfmZON3UgQrg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ms-almonds-in-bowl-getty-dbf3bf1a968b405d9d45de9d4b910709.jpg"
     },
   ];
 }
